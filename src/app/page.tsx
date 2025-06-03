@@ -71,9 +71,9 @@ export default function App () {
                   { name: "HTML", value: 100 },
                   { name: "CSS", value: 90 },
                   { name: "JavaScript", value: 75 },
-                  { name: "PHP", value: 80 },
-                  { name: "WordPress/CMS", value: 90 },
-                  { name: "Photoshop", value: 55 },
+                  { name: "Next.JS", value: 80 },
+                  { name: "React", value: 90 },
+                  { name: "Tailwind", value: 80 },
                 ].map((skill) => (
                   <div key={skill.name}>
                     <div className="flex justify-between text-sm font-semibold mb-1">
@@ -311,7 +311,6 @@ export default function App () {
                 className="border border-gray-300 p-3 rounded w-full"
               />
               <textarea
-                rows="6"
                 placeholder="Message"
                 className="border border-gray-300 p-3 rounded w-full"
               ></textarea>
